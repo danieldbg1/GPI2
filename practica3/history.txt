@@ -1,0 +1,90 @@
+la practica3 empiezsa a partir de este comando:
+
+
+  239  ./android-studio/bin/studio.sh 
+  240  sudo ./android-studio/bin/studio.sh 
+  241  cd
+  242  df -h
+  243  cd /root
+  244  free 
+  245  free help
+  246  free --help
+  247  free --g
+  248  free --giga
+  249  cd
+  250  cd E
+  251  cd Es
+  252  cd Esc
+  253  cd Escritorio
+  254  df -h
+  255  cd
+  256  du h
+  257  du help
+  258  du -h
+  259  du -h | grep G
+  260  exit
+  261  cd /root/
+  262  ls
+  263  ls -a
+  264  df -h .cache/
+  265  df -h .local/
+  266  df -h .profile 
+  267  df -h .local/
+  268  ls
+  269  ls -
+  270  exit
+  271  ls
+  272  cd
+  273  du -h | grep G
+  274  cd /root/
+  275  exo-open --launch FileManager
+  276  ls
+  277  ls -a
+  278  cd .local/
+  279  ls
+  280  cd share/
+  281  ls
+  282  cd nano/
+  283  ls
+  284  ls -a
+  285  cd
+  286  cd /root/
+  287  ls
+  288  ls -a
+  289  df -h
+  290  du -h
+  291  cd ..
+  292  cd /r
+  293  cd /root/
+  294  du -h
+  295  cd
+  296  du -h /root/
+  297  cd /root/
+  298  ls -a
+  299  du -h
+  300  cd
+  301  du -h
+  302  du -h | grep G
+  303  exit
+  304  du -h
+  305  df -h
+  306  du -h
+  307  df -h
+  308  du -h
+  309  df -h
+  310  exo-open --launch FileManager
+  311  ls
+  312  cd GPI2/MyArduinoProject/
+  313  ls
+  314  cd src/FooProject/
+  315  make
+  316  cd ..
+  317  make
+  318  git log
+  319  make
+  320  cd src/FooProject/
+  321  ls
+  322  make
+  323  ls
+  324  make
+  325  history > history.txt
