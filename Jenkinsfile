@@ -1,17 +1,12 @@
-
 pipeline {
-	tools {
-        	maven 'Maven_3.5.2' 
-    	}	
-	agent any
-	
-	stages {
-		stage('Hello') {
-			steps{
-				echo 'Hello world'
-			}
-		}
-	}
+    agent { docker { image 'maven:3.3.3' } }
+      stages {
+        stage('log version info') {
+      steps {
+        sh 'mvn --version'
+        sh 'mvn clean install'
+      }
+    }
+  }
 }
-
 
