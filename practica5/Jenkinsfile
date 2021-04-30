@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Android') {
+            steps {
+		echo 'Android'
+                ./gradlew :app:assembleDebug /home/alumno/AndroidStudioProjects/ActivityA121219/ 
+            }
+        }
+        stage('Arduino') {
+            steps {
+                echo 'Arduino'
+		make practica3/MyArduinoProject/src/FooProject/
+            }
+        }
+        stage('Maven') {
+            steps {
+                
+            }
+        }
+    }
+}
